@@ -18,7 +18,7 @@ Utilizando essa biblioteca você pode integrar o PagHiper ao Laravel e utilizar 
 Você pode instalar a biblioteca via composer:
 
 ```
-composer require webmasterdro/paghiper-laravel
+composer require flromano/paghiper-laravel
 ```
 
 ## Instalação no Laravel
@@ -32,9 +32,9 @@ Você não precisa configurar nada. O pacote carrega automaticamente o Service P
 Adicione o ServiceProvider e a Facade em `config/app.php`
 
 ```php
-WebMaster\LaravelPagHiper\PagHiperServiceProvider::class,
+Flromano\LaravelPagHiper\PagHiperServiceProvider::class,
 
-'PagHiper' => WebMaster\LaravelPagHiper\PagHiperFacade::class,
+'PagHiper' => Flromano\LaravelPagHiper\PagHiperFacade::class,
 ```
 
 ## Publique o arquivo de configuração
@@ -56,13 +56,13 @@ use PagHiper;
 
 $transaction = PagHiper::billet()->create([
     'order_id' => 'ABC-456-789',
-    'payer_name' => 'Pedro Lima',
+    'payer_name' => 'Fernando Romano',
     'payer_email' => 'comprador@email.com',
     'payer_cpf_cnpj' => '1234567891011',
     'type_bank_slip' => 'boletoa4',
     'days_due_date' => '3',
     'items' => [[
-        'description' => 'Macbook',
+        'description' => 'Notebook',
         'quantity' => 1,
         'item_id' => 'e24fc781-f543-4591-a51c-dde972e8e0af',
         'price_cents' => '1000'
