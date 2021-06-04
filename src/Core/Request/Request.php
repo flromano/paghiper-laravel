@@ -1,6 +1,6 @@
 <?php
 
-namespace WebMaster\LaravelPagHiper\Core\Request;
+namespace Flromano\LaravelPagHiper\Core\Request;
 
 use GuzzleHttp\Client;
 

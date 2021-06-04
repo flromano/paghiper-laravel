@@ -1,6 +1,6 @@
 <?php
 
-namespace WebMaster\LaravelPagHiper;
+namespace Flromano\LaravelPagHiper;
 
 use Illuminate\Support\Facades\Facade;
 
@@ -13,6 +13,6 @@ class PagHiperFacade extends Facade
      */
     protected static function getFacadeAccessor()
     {
-        return 'webmaster.paghiper';
+        return 'flromano.paghiper';
     }
 }

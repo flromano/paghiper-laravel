@@ -1,6 +1,6 @@
 <?php
 
-namespace WebMaster\LaravelPagHiper;
+namespace Flromano\LaravelPagHiper;
 
 use Illuminate\Support\ServiceProvider;
 
@@ -20,7 +20,7 @@ class PagHiperServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        $this->app->singleton('webmaster.paghiper', function ($app) {
+        $this->app->singleton('flromano.paghiper', function ($app) {
             return $app->make(PagHiper::class);
         });
 
@@ -41,6 +41,6 @@ class PagHiperServiceProvider extends ServiceProvider
      */
     public function provides()
     {
-        return ['webmaster.paghiper'];
+        return ['flromano.paghiper'];
     }
 }

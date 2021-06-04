@@ -1,6 +1,6 @@
 <?php
 
-namespace WebMaster\LaravelPagHiper\Core\Exceptions;
+namespace Flromano\LaravelPagHiper\Core\Exceptions;
 
 use Exception;
 

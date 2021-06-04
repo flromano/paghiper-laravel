@@ -1,10 +1,10 @@
 <?php
 
-namespace WebMaster\LaravelPagHiper\v1\Payment\Notification;
+namespace Flromano\LaravelPagHiper\v1\Payment\Notification;
 
-use WebMaster\LaravelPagHiper\Core\Request\Request;
-use WebMaster\LaravelPagHiper\Core\Exceptions\PagHiperException;
-use WebMaster\LaravelPagHiper\Core\Interfaces\NotificationInterface;
+use Flromano\LaravelPagHiper\Core\Request\Request;
+use Flromano\LaravelPagHiper\Core\Exceptions\PagHiperException;
+use Flromano\LaravelPagHiper\Core\Interfaces\NotificationInterface;
 
 class Notification implements NotificationInterface
 {

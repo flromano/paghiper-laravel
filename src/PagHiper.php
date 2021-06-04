@@ -1,10 +1,10 @@
 <?php
 
-namespace WebMaster\LaravelPagHiper;
+namespace Flromano\LaravelPagHiper;
 
-use WebMaster\LaravelPagHiper\v1\Payment\Billet;
-use WebMaster\LaravelPagHiper\v1\Bank\Accounts as BankAccounts;
-use WebMaster\LaravelPagHiper\v1\Payment\Notification\Notification;
+use Flromano\LaravelPagHiper\v1\Payment\Billet;
+use Flromano\LaravelPagHiper\v1\Bank\Accounts as BankAccounts;
+use Flromano\LaravelPagHiper\v1\Payment\Notification\Notification;
 
 class PagHiper
 {
@@ -23,7 +23,7 @@ class PagHiper
     /**
      * This method is responsible for actions related to billets. You can use to create or cancel a billet.
      *
-     * @return \WebMaster\PagHiper\Core\Payment\Boleto
+     * @return \Flromano\PagHiper\Core\Payment\Boleto
      */
     public function billet()
     {

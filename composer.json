@@ -18,7 +18,7 @@
     },
     "autoload": {
         "psr-4": {
-            "WebMaster\\LaravelPagHiper\\": "src/"
+            "Flromano\\LaravelPagHiper\\": "src/"
         }
     },
     "extra": {
@@ -26,10 +26,10 @@
         "frameworks": ["Laravel"],
         "laravel": {
             "providers": [
-                "WebMaster\\LaravelPagHiper\\PagHiperServiceProvider"
+                "Flromano\\LaravelPagHiper\\PagHiperServiceProvider"
             ],
             "aliases": {
-                "PagHiper": "WebMaster\\LaravelPagHiper\\PagHiperFacade"
+                "PagHiper": "Flromano\\LaravelPagHiper\\PagHiperFacade"
             }
         }
     }

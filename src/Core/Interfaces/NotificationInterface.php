@@ -1,6 +1,6 @@
 <?php
 
-namespace WebMaster\LaravelPagHiper\Core\Interfaces;
+namespace Flromano\LaravelPagHiper\Core\Interfaces;
 
 interface NotificationInterface
 {

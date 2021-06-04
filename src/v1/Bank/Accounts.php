@@ -1,10 +1,10 @@
 <?php
 
-namespace WebMaster\LaravelPagHiper\v1\Bank;
+namespace Flromano\LaravelPagHiper\v1\Bank;
 
-use WebMaster\LaravelPagHiper\Core\Request\Request;
-use WebMaster\LaravelPagHiper\Core\Exceptions\PagHiperException;
-use WebMaster\LaravelPagHiper\Core\Interfaces\BankAccountsInterface;
+use Flromano\LaravelPagHiper\Core\Request\Request;
+use Flromano\LaravelPagHiper\Core\Exceptions\PagHiperException;
+use Flromano\LaravelPagHiper\Core\Interfaces\BankAccountsInterface;
 
 class Accounts implements BankAccountsInterface
 {

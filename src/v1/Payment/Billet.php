@@ -1,10 +1,10 @@
 <?php
 
-namespace WebMaster\LaravelPagHiper\v1\Payment;
+namespace Flromano\LaravelPagHiper\v1\Payment;
 
-use WebMaster\LaravelPagHiper\Core\Request\Request;
-use WebMaster\LaravelPagHiper\Core\Interfaces\BilletInterface;
-use WebMaster\LaravelPagHiper\Core\Exceptions\PagHiperException;
+use Flromano\LaravelPagHiper\Core\Request\Request;
+use Flromano\LaravelPagHiper\Core\Interfaces\BilletInterface;
+use Flromano\LaravelPagHiper\Core\Exceptions\PagHiperException;
 
 class Billet implements BilletInterface
 {
