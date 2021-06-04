@@ -1,0 +1,36 @@
+{
+    "name": "flromano/paghiper-laravel",
+    "description": "Biblioteca de integração Laravel do PagHiper",
+    "keywords": [
+        "paghiper",
+        "laravel"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Fernando Lopes Romano",
+            "email": "fernando@ralnet.com.br"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "~6.0",
+        "laravel/framework": ">=5.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "WebMaster\\LaravelPagHiper\\": "src/"
+        }
+    },
+    "extra": {
+        "component": "package",
+        "frameworks": ["Laravel"],
+        "laravel": {
+            "providers": [
+                "WebMaster\\LaravelPagHiper\\PagHiperServiceProvider"
+            ],
+            "aliases": {
+                "PagHiper": "WebMaster\\LaravelPagHiper\\PagHiperFacade"
+            }
+        }
+    }
+}
