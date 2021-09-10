@@ -5,6 +5,7 @@
         "paghiper",
         "laravel"
     ],
+    "version": "1.0.0",
     "license": "MIT",
     "authors": [
         {
@@ -13,7 +14,7 @@
         }
     ],
     "require": {
-        "guzzlehttp/guzzle": "~6.0",
+        "guzzlehttp/guzzle": "~6.0 || ~7,0",
         "laravel/framework": ">=5.2"
     },
     "autoload": {
