@@ -40,7 +40,7 @@ Flromano\LaravelPagHiper\PagHiperServiceProvider::class,
 ## Publique o arquivo de configuração
 
 ```php
-php artisan vendor:publish --provider=WebMaster\LaravelPagHiper\PagHiperServiceProvider
+php artisan vendor:publish --provider=Flromano\LaravelPagHiper\PagHiperServiceProvider
 ```
 
 Adicione suas credenciais (`token` e `apiKey`) em `config/paghiper.php`. (Para obtê-las basta ir no seu painel:  [https://www.paghiper.com/painel/credenciais/](https://www.paghiper.com/painel/credenciais/)
